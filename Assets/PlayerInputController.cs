@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputController : MonoBehaviour
 {
+	public AnimationCurve curve;
 	public Vector3 moveDirection { get; private set; }
 	private Rigidbody rb;
 
